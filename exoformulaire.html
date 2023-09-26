@@ -7,10 +7,11 @@
 </head>
 <body>
 	<h1>Exo Formulaire</h1>
+	<a href="index.html"> Sommaire </a>
 <table border="0" bgcolor="white" width="100%">
 <forme>
 	<tr>
-		<td> <label>Pseudo</label> </td>
+		<td> <label>Pseudo *</label> </td>
 		<td> <input type="text" name="t1"> </td>
 	</tr>
 	<tr>
@@ -45,9 +46,9 @@
 		Poire <input type="checkbox" name="c3"></td>
 	</tr>
 
-	<tr><label>Civilité</label>
-		<td>Homme <input type="radio" name="r1"></td>
-		<td>Femme <input type="radio" name="r1"></td>
+	<tr> <td><label>Civilité</label></td>
+		<td>Homme <input type="radio" name="r1">
+		Femme <input type="radio" name="r1"></td>
 	</tr>
 	
 	<tr>
@@ -55,8 +56,8 @@
 		<td><input type="text" name="t5"></td>
 	</tr>
 	<tr>
-		<td><label>Code postal</label> <td>
-		<td><input type="text" name="t6"> <td>
+		<td><label>Code postal</label> </td>
+		<td><input type="text" name="t6"> </td>
 	</tr>
 	<tr>
 		<td><label>Adresse</label></td>
@@ -69,11 +70,11 @@
 	</tr>
 	<tr>
 		<td><label>Jauge</label></td>
-		<td><meter> </meter></td>
+		<td><input type="range"></td>
 	</tr>
 	<tr>
 		<td><label>Téléphone</label></td>
-		<td><input type="text" name="t7"></td>
+		<td><input type="text" name="t7" maxlength="10"></td>
 	</tr>
 	<tr>
 		<td><label>Recherche</label></td>
@@ -81,16 +82,16 @@
 	</tr>
 	<tr>
 		<td><label>URL</label></td>
-		<input type="text" name="t9">
+		<td><input type="text" name="t9"></td>
 	</tr>
 	<tr>
 		<td><label>Couleur</label></td>
+		<td><input type="color"></td>
 	</tr>
 	<tr>
 		<td><input type="button" name="b1" value="Valider"><td>
 	</tr>
 </forme>
 </table>
-<a href="index.html"> </a>
 </body>
 </html>

@@ -1,0 +1,62 @@
+body {
+	font-family: arial;
+}
+.barremid {
+	margin-top: 20px;
+	margin-left: 20%;
+	margin-right: 55%;
+}
+.top {
+	text-align: center;
+	background-color: grey;
+	border-radius: 20px;
+	height: 200px;
+	width: 850px;
+}
+.topgauche {
+	margin-left: 20px;
+	float: left;
+	margin-top: 10px;
+}
+.topdroite {
+	float: right;
+	margin-top: 50px;
+
+}
+.img {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+
+}
+.top2 {
+	text-align: center;
+	margin-top: 25px;
+	background-color: grey;
+	border-radius: 20px;
+	height: 150px;
+	width: 850px;
+}
+.top3 {
+	text-align: center;
+	margin-top: 25px;
+	background-color: grey;
+	border-radius: 20px;
+	height: 150px;
+	width: 850px;
+}
+.top4 {
+	text-align: center;
+	margin-top: 25px;
+	background-color: grey;
+	border-radius: 20px;
+	height: 150px;
+	width: 850px;
+}
+.d1 {
+	float: left;
+	margin-top: 25px;
+}
+.i1 {
+	margin-top: 25px;
+}

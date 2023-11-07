@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Sommaire</title>
+  <title>Menu responsive déroulant HTML / CSS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="menu-deroulant-responsive.css">
 </head>
 <body>
-
-<h1><u>Sommaire :</u></h1>
-<ol>
-	<li> <h2> <a href="./site1/page1.html"> Page d'accueil </a> </h2> </li>
-	<li> <h2> <a href="./site1/page2.html"> Page 2 </a> </h2> </li>
-	<li> <h2> <a href="./site1/page3.html"> Liste des Articles </a> </h2> </li>
-	<li> <h2> <a href="./site1/identification.html"> Page d'identification </a> </h2> </li>
-	<li> <h2> <a href="./site1/formulaire1.html"> Formulaire d'inscription </a> </h2> </li>
-	<li> <h2> <a href="./site1/exoformulaire.html"> Exo formulaire  </a> </h2> </li> 
-	<li> <h2> <a href="./tp3/index.html"> TP3 PROGRAMMATION </a> </h2> </li>
-	<li> <h2> <a href="./tp3-2/index.html"> TP3-2 PROGRAMMATION </a> </h2> </li>
-	<li> <h2> <a href="./tp4/tp4_1.html"> TP4_1 </a> </h2> </li>
-	<li> <h2> <a href="./tp5/mission1.html"> Mission 1 </a> </h2> </li>
-	<li> <h2> <a href="./cv/cv-1.html"> Mission 2 </a> </h2> </li>
-	<li> <h2> <a href="./tp6js/tp6.html"> TP6 </a> </h2> </li>
-	<li> <h2> <a href="./tp6js/calculatrice.html"> Calculatrice </a> </h2> </li>
-	<li> <h2> <a href="./facture/facture.html"> Facture en Javascript </a> </h2> </li>
-	<li> <h2> <a href="./certifications/certifications.html"> Certifications </a> </h2> </li>
-
-</ol>
-
+  <nav>
+    <label for="menu-mobile" class="menu-mobile">Menu</label>
+    <input type="checkbox" id="menu-mobile" role="button">
+    <ul>
+      <li class="menu-html"><a href="#">HTML</a>
+        <ul class="submenu">
+          <li><a href="./site1/page1.html">Page d'accueil</a></li>
+          <li><a href="./site1/page1.html">Page d'accueil</a></li>
+          <li><a href="./site1/page3.html"> Liste des Articles</a></li>
+          <li><a href="./site1/identification.html"> Page d'identification</a></li>
+          <li><a href="./site1/formulaire1.html"> Formulaire d'inscription</a></li>
+          <li><a href="./site1/exoformulaire.html"> Exo formulaire</a></li>
+          <li><a href="./tp3/index.html"> TP3 PROGRAMMATION</a></li>
+          <li><a href="./tp3-2/index.html"> TP3-2 PROGRAMMATION</a></li>
+        </ul>
+      </li>
+      <li class="menu-css"><a href="#">CSS</a>
+        <ul class="submenu">
+          <li><a href="./tp4/tp4_1.html"> TP4_1</a></li>
+          <li><a href="./tp5/mission1.html"> Mission 1</a></li>
+          <li><a href="./cv/cv-1.html"> Mission 2</a></li>
+        </ul>
+      </li>
+      <li class="menu-js"><a href="#">JavaScript</a>
+        <ul class="submenu">
+          <li><a href="./tp6js/tp6.html"> TP6</a></li>
+          <li><a href="./tp6js/calculatrice.html"> Calculatrice</a></li>
+          <li><a href="./facture/facture.html"> Facture en Javascript</a></li>
+        </ul>
+      </li>
+      <li class="menu-contact"><a href="#">Certifications</a>
+        <ul class="submenu">
+          <li><a href="./certifications/certifications.html"> Certifications</a></li>
+        </ul>
+        </li>
+    </ul>
+  </nav>
 </body>
 </html>
